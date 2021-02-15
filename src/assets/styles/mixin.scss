@@ -1,0 +1,11 @@
+$main-color: #F68929;
+$error-color: #F17E7E;
+$ratio : 375 / 10;
+@function px2rem($px){
+    @return $px / $ratio + rem;
+}
+$text-large: px2rem(18);
+$text-big: px2rem(16);
+$text-medium: px2rem(14);
+$text-small: px2rem(12);
+$text-tiny: px2rem(10);
